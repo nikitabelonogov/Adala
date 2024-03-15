@@ -16,7 +16,7 @@ on:
 
 env:
   DOCKER_CLI_EXPERIMENTAL: enabled
-  IMAGE_NAME: "${{ vars.DOCKERHUB_ORG }}/adala"
+  IMAGE_NAME: "test/adala"
   DOCKER_IMAGE_TAG_CHECK_NAME: "Docker image tag"
 
 jobs:
