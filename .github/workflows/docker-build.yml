@@ -85,7 +85,7 @@ jobs:
         id: docker_build_and_push
         with:
           context: .
-          file: Dockerfile
+          file: Dockerfile.app
           push: false
           tags: ${{ steps.calculate-docker-tags.outputs.docker-tags }}
           cache-from: type=gha
